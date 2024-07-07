@@ -6,7 +6,7 @@ Creating TADs Exam and Patient with modularization methods
 
 
 # Features
- Patient Management: Allows creation of new patient records with name and birthdate. 
+ Patient Management: Allows creation of new patient records with id,name and birthdate. 
 
  Exam Management: Enables registration of new exams associated with existing patients.
 
