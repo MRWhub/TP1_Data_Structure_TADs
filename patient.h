@@ -12,6 +12,6 @@ int get_patient_id(Patient *patient);
 
 char *get_patient_name(Patient *patient);
 
-struct tm *get_patient_birthdate(Patient *patient);
+const struct tm *get_patient_birthdate(Patient *patient);
 
 #endif // PATIENT_H_INCLUDED
