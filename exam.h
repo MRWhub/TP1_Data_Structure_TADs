@@ -14,6 +14,6 @@ int get_exam_patient_id(Exam *exam);
 
 int get_exam_rx_id(Exam *exam);
 
-struct tm *get_exam_time(Exam *exam);
+const struct tm *get_exam_time(Exam *exam);
 
 #endif // EXAM_H_INCLUDED
