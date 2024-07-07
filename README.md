@@ -13,7 +13,8 @@ Technologies Used
 --Tools: GCC, Make
 --Operating System: Windows/Linux
 
-#Creators
+Creators:
+
 Miguel R. Wagner 
 
 Vitor H. Vervolet
