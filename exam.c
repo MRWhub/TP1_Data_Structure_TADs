@@ -158,8 +158,7 @@ int get_exam_rx_id(Exam *exam) {
 
     return exam->rx_id;
 }
-
-struct tm *get_exam_time(Exam *exam) {
+const struct tm *get_exam_time(Exam *exam) {
     /** \brief This function gets and returns the exam's time // Esta função obtém e retorna o horário do exame
      *
      * \param exam - Pointer to exam's structure // Ponteiro para a estrutura do exame
