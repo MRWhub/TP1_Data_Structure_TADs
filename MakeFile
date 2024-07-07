@@ -2,7 +2,7 @@
 # Compilador
 CC = gcc
 
-# Flags de compilaÁ„o
+# Flags de compila√ß√£o
 CFLAGS = -Wall -g
 
 
@@ -13,10 +13,10 @@ SRCS = main.c exam.c patient.c sleep.c
 # Arquivos objeto
 OBJS = $(SRCS:.c=.o)
 
-# Arquivo de saÌda
+# Arquivo de sa√≠da
 TARGET = exam
 
-# Regra para garantir que o makefile È o alvo padr„o
+# Regra para garantir que o makefile √© o alvo padr√£o
 .PHONY: all compile run clean
 
 # Default target (compile and run)
@@ -29,7 +29,7 @@ compile: $(TARGET)
 run: $(TARGET)
 	./$(TARGET)
 
-# Limpeza dos arquivos objeto e do execut·vel
+# Limpeza dos arquivos objeto e do execut√°vel
 clean:
 	rm -f $(OBJS) $(TARGET)
 
@@ -38,6 +38,6 @@ clean:
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
 
-# Regra padr„o para compilar o programa
+# Regra padr√£o para compilar o programa
 $(TARGET): $(OBJS)
 	$(CC) $(CFLAGS) -o $(TARGET) $(OBJS)
