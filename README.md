@@ -22,6 +22,14 @@ Tools: GCC, Make
 
 Operating System: Windows/Linux
 
+# How to run with MakeFile.mak
+---> Go to project directory
+
+
+---> In LINUX based OS run: make -f MakeFile.mak
+
+---> In Windows based OS run: ming32-make -f MakeFile.mak or "Your edited make" -f MakeFile.mak
+
 # Creators:
 
 Miguel R. Wagner 
